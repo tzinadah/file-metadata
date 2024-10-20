@@ -3,11 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <title>File Metadata</title>
   </head>
   <body>
     <div>
-        <h1>How to use this API</h1>
+      <h1>Submit your file down here and get its metadata in json</h1>
+      <p>Also accessible on POST /submit-file</p>
+      <form action="/submit-file" method="post" enctype="multipart/form-data">
+        <input type="file" name="file"/>
+        <input type="submit" />
+      </form>
     </div>
   </body>
 </html>

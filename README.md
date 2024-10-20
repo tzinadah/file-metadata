@@ -1,2 +1,2 @@
-This is boilerplate for basic api using express js
-Main entrypoint at server.js
+This is an API endpoint serving as metadata stamper
+Uplaod the file and get the metadata in json back
